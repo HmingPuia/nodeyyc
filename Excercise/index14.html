@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create User</title>
+</head>
+<body>
+    <h1>Create User</h1>
+    <hr>
+    <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+        <label for="nameid">Name</label> 
+        <input type="text" name="username" placeholder="username" size="30" maxlength="12">
+        
+        <fieldset>
+            <legend>User Form</legend>
+            <label>First name</label>
+            <input type="text" name="name"/>
+            <label>Last name</label>
+            <input type="text" name="surname">
+            
+        </fieldset> 
+
+            <label for="password">Password</label>
+        <input type="text" name="password" placeholder="password" size="30" maxlength="8">
+<form action="action page">
+    <p>Select your favourite superheroe</p>
+    <input type="radio" name="favourite Superheroe" value="Superman"> <label for="favourite">Superman</label><br>
+    <input type="radio" name="favourite Superheroe" value="Batman" checked="checked"><label for="favourite">Batman</label> "Yeahhhh!! They rock..."<br>
+    <input type="radio" name="favourite Superheroe" value="Wonder Woman" checked="checked"><label for="favourite">Wonder Woman</label> "They Rock..."<br>
+    <input type="radio" name="favourite Superheroe" value="Flash"> <label for="favourite">Flash</label><br>
+    <input type="radio" name="favourite Superheroe" value="Thor"> <label for="favourite">Thor</label><br>
+    <input type="radio" name="favourite Superheroe" value="Hulk"> <label for="favourite">Hulk</label>
+</form>
+
+<form action="fav-game">
+    <p>Select your favourite video game</p>
+    <input type="checkbox" name="game" value="Fifa" checked="checked"> <label for="game">Fifa</label><br>
+    <input type="checkbox" name="game" value="NHL"> <label for="game">NHL</label><br>
+    <input type="checkbox" name="game" value="Residen Evil"> <label for="game">Residen Evil</label><br>
+    <input type="checkbox" name="game" value="Uncharted" checked="checked"> <label for="game">Uncharted</label><br>
+</form>
+
+<form action="hidden-input">
+            <input type="hidden" name="userid" value="2300">
+</form>
+<form action="img-1">
+    <input type="image" name="login" src="ex12/images/register_button.png" height="30" width="30">
+</form>
+    <form>
+        <label for="dob">Birthday:</label>
+        <input type="date" id="date" value="mm/dd/yy">
+    </form>
+    <form action="email-1">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="email" required>
+    </form>
+    <form action="url">
+        <label for="gsearch">Search Google:</label>
+        <input type="search" name="gsearch" id="g" placeholder="https://www.google.ca/search" size="30" required>
+    </form>
+
+    </form>
+</body>
+</html>
